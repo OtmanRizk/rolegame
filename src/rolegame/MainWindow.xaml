@@ -1,4 +1,4 @@
-﻿<Window x:Class="rolegame.MainWindow"
+﻿<Window x:Class="WPFGUI.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -18,13 +18,10 @@
             <ColumnDefinition Width="*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
 
-        <Label Grid.Row="0" Grid.Column="0" Content="Test" Background="AliceBlue"></Label>
-        <Label Grid.Row="0" Grid.Column="1" Content="Test" Background="Gray"></Label>
-        <Label Grid.Row="1" Grid.Column="0" Content="Test" Background="Green"></Label>
-        <Label Grid.Row="1" Grid.Column="1" Content="Test" Background="Red"></Label>
-        <Label Grid.Row="2" Grid.Column="0" Content="Test" Background="Purple"></Label>
-        <Label Grid.Row="2" Grid.Column="1" Content="Test" Background="Yellow"></Label>
-
-
+        <Label Grid.Row="0" Grid.Column="0" Content="Menu" Grid.ColumnSpan="2" Background="AliceBlue"></Label>
+        <Label Grid.Row="1" Grid.Column="0" Content="Player Data" Background="Green"></Label>
+        <Label Grid.Row="1" Grid.Column="1" Content="Game Data" Background="Red"></Label>
+        <Label Grid.Row="2" Grid.Column="0" Content="Inventory/Quests" Background="Purple"></Label>
+        <Label Grid.Row="2" Grid.Column="1" Content="Combat/Movement Controls" Background="Yellow"></Label>
     </Grid>
 </Window>
