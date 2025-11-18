@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Engine.Model;
+using Models;
 
 namespace Engine.ViewModel
 {
@@ -14,6 +14,8 @@ namespace Engine.ViewModel
         public GameSession()
         { 
             CurrentPlayer = new Player();
+            CurrentPlayer.Name = "Gandalf";
+            CurrentPlayer.Gold = 100000;
         }
 
 
