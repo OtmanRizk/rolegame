@@ -8,17 +8,28 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using ViewModels.GameSession;
 
-namespace WPFGUI 
+namespace ViewWPF
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
+        private GameSession _gameSession = new GameSession();
         public MainWindow()
         {
             InitializeComponent();
+            _gameSession = new GameSession();
+
+            DataContext = _gameSession;
+
+        }
+
+        private void ButtonAdd_OnClick(object sender, RoutedEventArgs e)
+        {
+            _gameSession.CurrentPlayer.ExperiencePoint += 10;
         }
     }
 }

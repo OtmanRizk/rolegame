@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36221.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{262C6A48-AE34-D77E-44A9-AF0CD30983F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewModels", "ViewModels\ViewModels.csproj", "{C517EF53-64C0-4138-B259-08B6803A1C17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewWPF", "ViewWPF\ViewWPF.csproj", "{EEA864A0-94DD-4FA4-B2BF-ED69FBDEEF8E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{262C6A48-AE34-D77E-44A9-AF0CD30983F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{262C6A48-AE34-D77E-44A9-AF0CD30983F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{262C6A48-AE34-D77E-44A9-AF0CD30983F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{262C6A48-AE34-D77E-44A9-AF0CD30983F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C517EF53-64C0-4138-B259-08B6803A1C17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C517EF53-64C0-4138-B259-08B6803A1C17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C517EF53-64C0-4138-B259-08B6803A1C17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C517EF53-64C0-4138-B259-08B6803A1C17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEA864A0-94DD-4FA4-B2BF-ED69FBDEEF8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEA864A0-94DD-4FA4-B2BF-ED69FBDEEF8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEA864A0-94DD-4FA4-B2BF-ED69FBDEEF8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEA864A0-94DD-4FA4-B2BF-ED69FBDEEF8E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E3F89F0-0E07-4D24-B681-B189CCBA2111}
+	EndGlobalSection
+EndGlobal
